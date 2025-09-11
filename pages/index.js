@@ -10,11 +10,8 @@ export default function Home() {
       }}
     >
       <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-        <img
-          src="/nora-logo.png"
-          alt="Nora Knows Logo"
-          style={{ maxWidth: '200px', marginBottom: '1rem' }}
-        />
+        <img src="/logo.png" alt="Nora Knows Logo" style={{ maxWidth: '200px', marginBottom: '1rem' }} /> 
+
         <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>
           Everyone's guessing — <strong>Nora knows.</strong>
         </h1>
@@ -46,19 +43,35 @@ export default function Home() {
               maxWidth: '300px',
             }}
           />
-          <button
-            style={{
-              marginLeft: '0.5rem',
-              padding: '0.75rem 1rem',
-              backgroundColor: '#1a1f36',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '0.5rem',
-              cursor: 'pointer',
-            }}
-          >
-            Notify Me
-          </button>
+<form action="https://formspree.io/f/mjkezbqn" method="POST">
+  <input
+    type="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+    style={{
+      padding: '0.5rem',
+      fontSize: '1rem',
+      marginRight: '1rem',
+      borderRadius: '5px',
+      border: '1px solid #ccc',
+    }}
+  />
+  <button
+    type="submit"
+    style={{
+      padding: '0.5rem 1rem',
+      fontSize: '1rem',
+      backgroundColor: '#1a1f36',
+      color: '#fff',
+      border: 'none',
+      borderRadius: '5px',
+      cursor: 'pointer',
+    }}
+  >
+    Notify Me
+  </button>
+</form> 
         </div>
       </div>
     </main>
