@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: '#fdfbf7',
+        backgroundColor: '#f7ecd8',
         minHeight: '100vh',
         color: '#1a1f36',
         fontFamily: 'sans-serif',
