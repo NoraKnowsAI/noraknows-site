@@ -32,17 +32,6 @@ export default function Home() {
 
         <div style={{ marginTop: '2rem' }}>
           <h3 style={{ marginBottom: '0.5rem' }}>Stay in the Loop</h3>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            style={{
-              padding: '0.75rem',
-              borderRadius: '0.5rem',
-              border: '1px solid #ccc',
-              width: '70%',
-              maxWidth: '300px',
-            }}
-          />
 <form action="https://formspree.io/f/mjkezbqn" method="POST">
   <input
     type="email"
